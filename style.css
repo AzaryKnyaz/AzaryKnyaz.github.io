@@ -1,10 +1,14 @@
 
+
 body {
 		font-family: Arial;
 		margin: 0%;
-		overflow: hidden; }
+		overflow: hidden;
+        display: flex;
+    }
 		
     header {
+        justify-content:center;
         background: hsla(0, 0%, 1%, 0.2);
         color: white;
         border-radius: 1em;
@@ -13,11 +17,14 @@ body {
         top: 10%;
         left: 50%;
         margin-right: -50%;
-        transform: translate(-50%, -50%) }
+        transform: translate(-50%, -50%)
+        
+     }
 		
 	h1 {
+
 		text-align: center;
-		font-size: 40px;
+		font-size: 25px;
 	}
 	
 	p {
@@ -26,91 +33,66 @@ body {
 	}
 		
 	canvas {
+        background-size: cover;
+        justify-content:center;
 		display: block;
-		background: rgb(22, 22, 22);
+		background: hsl(0, 0%, 0%);
 	}
 	
 	
 
+.colors {
+    margin: auto;
+}
 /* Стили кнопки */
 .button {
     background-color: hsl(120, 55%, 55%); /* зеленый */
     border: none;
     color: hsl(0, 100%, 100%); /*белый*/
-    padding: 15px 31px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
+    padding: 30px 62px;
+    justify-content:space-evenly; 
     -webkit-transition-duration: 0.4s; /* скорость */
     transition-duration: 0.4s;
     cursor: pointer;
 }
 
 .button1 { /*зеленый*/
-    background-color: hsl(0, 100%, 100%); /*белый*/
-    color: hsl(0, 100%, 0%); /*черный*/
-    border: 2px solid hsl(120, 55%, 55%);
+    background-color: hsl(120, 55%, 55%); 
+    color:hsl(120, 55%, 55%)  
 }
 
-.button1:hover {
-    background-color: hsl(120, 55%, 55%); 
-    color: hsl(0, 100%, 100%); /*белый*/
-}
 
 .button2 { /*синий*/
-    background-color: hsl(0, 100%, 100%); /*белый*/
-    color: hsl(0, 100%, 0%); /*черный*/
-    border: 2px solid hsl(235, 80%, 45%);
+    background-color: hsl(235, 80%, 45%); 
+    color: hsl(235, 80%, 45%);
 }
 
-.button2:hover {
-    background-color: hsl(235, 80%, 45%);
-    color: hsl(0, 100%, 100%); /*белый*/
-}
 
 .button3 { /*красный*/
-    background-color: hsl(0, 100%, 100%); /*белый*/
-    color: hsl(0, 100%, 0%); /*черный*/
-    border: 2px solid hsl(0, 100%, 50%);
+    background-color: hsl(0, 100%, 50%); 
+    color:  hsl(0, 100%, 50%);
 }
 
-.button3:hover {
-    background-color: hsl(0, 100%, 50%);
-    color: hsl(0, 100%, 100%); /*белый*/
-}
 
 .button4 { /*фиолетовый*/
-    background-color: hsl(0, 100%, 100%); /*белый*/
-    color: hsl(0, 100%, 0%); /*черный*/
-    border: 2px solid hsl(301, 90%, 38%);
+    background-color: hsl(301, 90%, 38%); 
+    color: hsl(301, 90%, 38%);
 }
 
-.button4:hover {
-	background-color: hsl(301, 90%, 38%);
-	color: hsl(0, 100%, 100%); /*белый*/
-}
 
 .button5 { /*желтый*/
-    background-color: hsl(0, 100%, 100%); /*белый*/
-    color: hsl(0, 100%, 0%); /*черный*/
-    border: 2px solid hsl(59, 90%, 60%);
+    background-color: hsl(59, 90%, 60%); 
+    color: hsl(59, 90%, 60%);
 }
 
-.button5:hover {
-    background-color: hsl(59, 90%, 60%);
-    color: hsl(0, 100%, 100%); /*белый*/
-}
+
 
 .button6 { /*черный*/
-    background-color: hsl(0, 100%, 100%); /*белый*/
-    color: hsl(0, 100%, 0%); /*черный*/
-    border: 2px solid hsl(120, 0%, 30%);
+    background-color: hsl(120, 0%, 30%); 
+    color:hsl(120, 0%, 30%);
 }
 
-.button6:hover {
-    background-color: hsl(120, 0%, 30%);
-    color: hsl(0, 100%, 100%); /*белый*/
+.button7 { /*Белый*/
+    background-color: hsl(120, 100%, 100%); 
+    color:hsl(120, 100%, 100%);
 }
-
